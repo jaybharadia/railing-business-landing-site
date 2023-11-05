@@ -15,14 +15,14 @@
                     class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48"
                 >
                     Manufacturer of aluminium glass railing, aluminum profile
-                    glass railing & alluminium glass railing in Rajkot, Gujarat.
+                    glass railing & aluminium glass railing in Rajkot, Gujarat.
                 </p>
                 <div
                     class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4"
                 >
                     <a
                         href="#"
-                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+                        class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-500 hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
                     >
                         Know More
                         <svg
@@ -43,6 +43,8 @@
                     </a>
                 </div>
             </div>
+
+            <ServiceMap />
         </section>
     </div>
 </template>
@@ -50,5 +52,3 @@
 <script>
 export default {};
 </script>
-
-<style lang="scss" scoped></style>

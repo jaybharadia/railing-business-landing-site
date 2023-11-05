@@ -1,7 +1,7 @@
 <template>
     <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div
-            class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+            class="relative max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
         >
             <a href="https://flowbite.com/" class="flex items-center">
                 <img
@@ -21,7 +21,7 @@
             </div>
             <div
                 :class="{ hidden: toggleMenu }"
-                class="items-center justify-between w-full md:flex md:w-auto md:order-1"
+                class="absolute md:relative top-12 md:top-0 right-0 left-0 p-5 md:p-0 items-center justify-between w-full md:flex md:w-auto md:order-1"
                 id="navbar-language"
             >
                 <ul
